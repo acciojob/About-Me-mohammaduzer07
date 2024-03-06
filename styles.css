@@ -1,1 +1,54 @@
-
+body{
+	background: #f2f2f2;
+	font-family:  sans-serif;
+}
+.profile{
+	margin: 0px 30px;
+}
+.container{
+	margin: 20px 20px;
+	width: 80%vw;
+	height: 90vh;
+	border: 1px solid #ccc;
+	background: white;
+}
+h2{
+	margin-bottom: -20px;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	
+}
+h2 , .skills{
+	margin-left: 20px
+}
+.skills .border{
+	/* width: fit-content; */
+	border-bottom: 5px solid blue;
+	width: 80%vw;
+}
+img{
+	width: 150px;
+	height: 180px;
+	margin: 20px;
+}
+.head{
+	margin-top: 10px;
+	display: flex;
+}
+.about{
+	display: flex;
+}
+.col{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.desc{
+	margin-top: 2rem;
+	line-height: 30px;
+	font-size: 25px;
+	font-weight: none;
+	color: #5c5c5c;
+}
