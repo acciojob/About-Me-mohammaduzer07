@@ -42,12 +42,13 @@ img{
 }
 .col{
 	margin-top: 20px;
+	margin-left: 50px;
 	display: flex;
 	flex-direction: column;
 }
 .desc{
 	margin-top: 2rem;
-	line-height: 30px;
+	line-height: 40px;
 	font-size: 25px;
 	font-weight: none;
 	color: #5c5c5c;
